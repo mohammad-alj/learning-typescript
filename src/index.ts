@@ -1,6 +1,22 @@
-// Union Types
+// Intersection type
+type Draggable = {
+	drag: () => void;
+};
 
-function kgToLbs(weight: number | string): number {
-	const num = typeof weight === 'string' ? parseFloat(weight) : weight;
-	return num * 2.2;
-}
+type Resizable = {
+	resize: (w: number, h: number) => void;
+};
+
+type UIWidget = Draggable & Resizable;
+
+const obj: UIWidget = {
+	drag() {
+		return;
+	},
+	resize(w: number, h: number) {
+		return w * h;
+	},
+};
+
+obj.drag();
+obj.resize(1, 2);
