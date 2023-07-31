@@ -19,3 +19,6 @@ a group of related constants.
 
 ## the Function
 when making a function, its a best practice to annotate the function with a return type. by adding a : after the argumnets like this -> function (arg1: any, arg2: any): any {}
+
+## the Object
+In normal javascript, objects are dynamic, meaning that you can extend properties of an object after initialization, however in typescript thats not allowed, because the object gets a type of initialization which can be expelictly edited by the programmer like this -> const obj: {id: number} = {id: 1}

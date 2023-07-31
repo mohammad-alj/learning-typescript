@@ -1,5 +1,12 @@
-// Function
-function calculateTax(income: number, taxYear: number): number {
-	if (taxYear < 2023) return income * 1.2;
-	return income * 1.3;
-}
+// Object
+
+const employee: {
+	readonly id: number;
+	name: string;
+	retire?: () => void;
+} = {
+	id: 1,
+	name: 'mohammed',
+};
+
+employee.retire = () => console.log('retire');
