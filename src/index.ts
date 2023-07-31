@@ -1,5 +1,5 @@
 class BankAcount {
-	id: number;
+	readonly id: number;
 	owner: string;
 	balance: number;
 
