@@ -10,3 +10,6 @@ is to add types
 
 ## the Array
 using [] after the type specefies the array item type
+
+## the Tuple
+a fixed length array where each element has a particular type, best practice is to restrict the tuples to only 2 values.
