@@ -9,3 +9,7 @@ weight: number | string = 1;
 
 ## the Intersection type
 two types combined with each other using the & symbol for example: weight: number & string (ok what)
+
+## Literal types
+a type that accept specefic values like 50 or 'something as a string'
+
