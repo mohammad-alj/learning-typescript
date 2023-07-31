@@ -7,3 +7,6 @@ detect that this is a number so there is no need to annotate the 'age' with type
 ## the any type
 the any type can hold any values, also its a very bad practice because the whole point of typescript
 is to add types
+
+## the Array
+using [] after the type specefies the array item type
