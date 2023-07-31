@@ -1,12 +1,11 @@
 {
-  "name": "learning",
-  "version": "1.0.0",
-  "description": "",
-  "main": "dist/index.js",
-  "scripts": {
-    "build": "tsc",
-    "start": "node ."
-  },
-  "author": "",
-  "license": "ISC"
+	"name": "learning",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/index.js",
+	"scripts": {
+		"start": "tsc && node ."
+	},
+	"author": "",
+	"license": "ISC"
 }
