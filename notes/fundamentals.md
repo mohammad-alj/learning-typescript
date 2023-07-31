@@ -16,3 +16,6 @@ a fixed length array where each element has a particular type, best practice is 
 
 ## the Enum
 a group of related constants.
+
+## the Function
+when making a function, its a best practice to annotate the function with a return type. by adding a : after the argumnets like this -> function (arg1: any, arg2: any): any {}
