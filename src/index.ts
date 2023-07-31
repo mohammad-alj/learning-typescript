@@ -1,16 +1,6 @@
-// Type alias
-type Employee = {
-	readonly id: number;
-	name: string;
-	retire: () => void;
-};
+// Union Types
 
-const employee: Employee = {
-	id: 1,
-	name: 'mohammed',
-	retire() {
-		console.log(`${this.name} has retired`);
-	},
-};
-
-employee.retire = () => console.log('retire');
+function kgToLbs(weight: number | string): number {
+	const num = typeof weight === 'string' ? parseFloat(weight) : weight;
+	return num * 2.2;
+}
