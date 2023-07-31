@@ -1,5 +1,15 @@
-const freq = new (class {
-	[key: string]: string;
-})();
-freq['something'] = 'that';
-console.log(freq['something']);
+class Ride {
+	private static activeRides: number = 0;
+
+	start() {
+		Ride.activeRides++;
+	}
+
+	stop() {
+		Ride.activeRides--;
+	}
+
+	get activeRides(): number {
+		return Ride.activeRides;
+	}
+}
